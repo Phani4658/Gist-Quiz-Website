@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./loginPage.css">
+    
+  
+</head>
+<body>
+        
+    <div class = "illustration-container">
+        <img src = "Images/example-scene-2.svg">
+    </div>
+    <div class = "login-details">
+        <h1 class = "login-heading">Hey There!</h1>
+        <p>Login to access and enjoy the events</p>
+        <form>
+            <div class = "page-container">
+                <label for = "RollNo">Roll Number</label>
+                <input type="text" id = "RollNo" required>
+            </div>
+            <div class = "page-container">
+                <label for = "Password">Password</label>
+                <input type="password" id = "Password" required>
+            </div>
+            <div class="page-container checkbox-container">
+                <input type="checkbox" name = "Show Password" value = "Show Password" id = "ShowPassword" onclick="toggle()">
+                <label for = "ShowPassword">Show Password</label>
+            </div>
+            <div class = "button-container">
+                <button>Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
